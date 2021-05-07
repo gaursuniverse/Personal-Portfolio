@@ -150,7 +150,7 @@ img{
 
   .nav__menu {
     position: fixed;
-    top: var(--header-height);
+    top: -100%;
     left: 0;
     width: 100%;
     padding-top: 1.5rem;
@@ -186,6 +186,9 @@ img{
 }
 
 /* Show menu */
+.show-menu {
+  top: var(--header-height);
+}
 
 /* Active menu */
 
